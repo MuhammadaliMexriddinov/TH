@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:background="@drawable/shapemain1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Batafsil ma`lumot"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/btnBack"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_marginStart="26dp"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:padding="4dp"
+                        android:src="@drawable/baseline_arrow_back_ios_24"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tint="@color/white" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:id="@+id/image_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/txtCount"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginHorizontal="12dp"
+                            android:background="@drawable/mainshape2"
+                            android:text="Davolanishda sodiqlikning kognitiv komponenti"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/t2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="12dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:orientation="vertical"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="4dp"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="12dp">
+
+                                <TextView
+                                    android:id="@+id/test"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/abouta1"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginHorizontal="12dp"
+                            android:background="@drawable/mainshape2"
+                            android:text="Davolanishga sodiqlikning emotsional komponenti"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="12dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:orientation="vertical"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="4dp"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="12dp">
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="salomatlikni yaxshilashda kayfiyat, emotsiya, hissiyyotning ahamiyatini baholash imkoniyatini beradi.
+Yuqori qiymatlar (19-35 ball). Siz salomatligingizda ro`y berayotgan turli muammolarga duch kelganingizda aniq asabiylashasiz. Shifokor buyurgan muolaja tartibiga va tavsiyalariga rioya qilmasangiz oqibati yomon bo`lishini bilib negativ emotsiyalar va hissiyotga berilasiz, birdan kayfiyatigiz tushib ketadi. Ko`pchilik bemorlar shifokor tavsiyalariga e`tiborsizligi tufayli xatarli oqibatlarga uchragani haqida eshitganingizda ba`zan o`zingizni yuqotib qo`yasiz. Ba`zan esa o`zingiz ayrim tavsiyalarga rioya qilolmay qolsangiz darrov asabiylashasiz. Agar kimnidir aybi tufayli dorilarni vaqtida icholmasangiz, muolajalarga kechikib qolsangiz yoki kun tartibi buzilsa jaxlingiz chiqib ketadi va o`zingizni boshqara olmay qolasiz.
+Quyi qiymatlar (1-18 ball).  Siz muolajalar tartibi va shifokor tavsiyalariga rioya qilmagani tufayli negativ emotsiyalar va hissiyotga beriluvchi odamlar toifasiga aniq kirmaysiz, cunki bunday holatlar Sizni umuman tashvishlantirmaydi. Masalan, shifokor tavsiyalariga rioya qilmasangiz oqibati yomon bo`lishini bilsangiz ham kayfiyatigiz tushib ketmaydi. Ko`pchilik bemorlar shifokor tavsiyalariga e`tiborsizligi tufayli xatarli oqibatlarga uchraganiga befarq qaraysiz. Chunki o`zingiz shifokor tavsiyalariga rioya qilmaysiz, dorilarni vaqtida ichishga va kun tartibiga beparvo qaraysiz. Umuman muolajalrni tartibini buzish Sizni tashvishlantirmaydi.
+
+Davolanishga sodiqlikning hulq-atvor komponenti shifokor tavsiyalariga rioya etish va muolajalrni bexatarligini ta`minlash uchun kun tartibiga o`z vaqtida amal qilish harakatini aniqlab beradi.
+Yuqori qiymatlar (6-10 ball). Siz shifokor buyurgan muolaja tartibiga va tavsiyalariga qati`y rioya qilasiz. Ba`zi bemorlar kabi shifokor tavsiyalariga e`tiborsizlik qilmaysiz. Asabiylashmaslik uchun muolajalarni o`z vaqtida olasiz.  Xotirjam yaxshi kayfiyat bilan dorilarni vaqtida ichish, muolajalarga kechikmaslik yoki kun tartibini buzmaslik uchun boshqa ishlarga va odamlarga chalg`imaysiz.
+Quyi qiymatlar (1-18 ball). Siz tez-tez shifokor buyurgan muolaja tartibiga va tavsiyalariga e`tiborsiz bo`lasiz, ba`zan umuman rioya qilmaysiz. Kasalingiz asoratlari yomon bo`lishini bilib tushkin kayfiyatga, negativ emotsiyalar va hissiyotga berilasiz. Aksariyat hollarda shifokor tavsiyalariga e`tiborsizligingiz tufayli o`z salomatligingizga jiddiy xavf tug`dirasiz. Intizomli va hushyor bo`ling muolaja tartibiga va shifokor tavsiyalariga qat`iy rioya eting. O`z salomatligingizga mas`uliyat va javobgarlikni his eting.
+"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginHorizontal="12dp"
+                            android:background="@drawable/mainshape2"
+                            android:text="Davolashda sodiqlikning umumiy ballari"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="12dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:orientation="vertical"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="4dp"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="12dp">
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/abouta3"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/imgWeb"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="62dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/web"
+                    app:layout_constraintEnd_toStartOf="@id/txtWeb"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image_logo" />
+
+
+                <TextView
+                    android:id="@+id/txtWeb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginTop="16dp"
+                    android:background="?selectableItemBackground"
+                    android:text="Veb-sayt"
+                    android:textColor="#00BCD4"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image_logo" />
+
+
+                <ImageView
+                    android:id="@+id/imgFacebook"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/facebook"
+                    app:layout_constraintEnd_toEndOf="@+id/imgWeb"
+                    app:layout_constraintStart_toStartOf="@+id/imgWeb"
+                    app:layout_constraintTop_toBottomOf="@id/imgWeb"
+                    app:tint="#3F51B5" />
+
+
+                <TextView
+                    android:id="@+id/txtFacebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginTop="16dp"
+                    android:background="?selectableItemBackground"
+                    android:text="Facebook"
+                    android:textColor="#03A9F4"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgWeb" />
+
+
+                <ImageView
+                    android:id="@+id/imgTelegram"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/telegram"
+                    app:layout_constraintEnd_toEndOf="@+id/imgFacebook"
+                    app:layout_constraintStart_toStartOf="@+id/imgFacebook"
+                    app:layout_constraintTop_toBottomOf="@id/imgFacebook"
+                    app:tint="#2196F3" />
+
+
+                <TextView
+                    android:id="@+id/txtTelegram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginTop="16dp"
+                    android:background="?selectableItemBackground"
+                    android:text="Telegram"
+                    android:textColor="#03A9F4"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgFacebook" />
+
+
+                <ImageView
+                    android:id="@+id/gmail"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/gmail"
+                    app:layout_constraintEnd_toEndOf="@+id/imgTelegram"
+                    app:layout_constraintStart_toStartOf="@+id/imgTelegram"
+                    app:layout_constraintTop_toBottomOf="@id/imgTelegram" />
+
+
+                <TextView
+                    android:id="@+id/txtGmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginTop="16dp"
+                    android:background="?selectableItemBackground"
+                    android:text="Gmail"
+                    android:textColor="#03A9F4"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgTelegram" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="version 1.0.0"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/gmail" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

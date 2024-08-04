@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:background="@drawable/shapemain1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Umumiy ballar"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/btnBack"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_marginStart="26dp"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:padding="4dp"
+                        android:src="@drawable/baseline_arrow_back_ios_24"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tint="@color/white" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:id="@+id/image_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/txtCount"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginHorizontal="12dp"
+                            android:background="@drawable/mainshape2"
+                            android:text="Yuqori qiymatlar (57-106 ball)"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/t2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="12dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:orientation="vertical"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="4dp"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="12dp">
+
+                                <TextView
+                                    android:id="@+id/test"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Siz kasalingiz haqida yaxhi ma`lumotga egasiz, davolanish jarayonida shifokor tomonidan berilgan tavsiyalarga qat`iy rioya etish kerakligini bilasiz. Ommaviy axborot vositalarida e`lon qilinadigan kasallikni oldini olish va davolash haqidagi qoida va tavsiyalar yoritilgan maqolalar, yangiliklarga e`tibor qaratasiz, vaqt ajratib qiziqish bilan o`qib chiqasiz. Shuning uchun kasallikning qator asoratlari hamda ularning oldini olish chora tadbirlari haqida yaxshi tasavvurga egasiz.
+Sizning kayfiyatingiz, emotsiya va hissiyotlaringiz bexatarlikni ta`minlashga qaratilgan shifokor buyurgan muolaja tartibiga va tavsiyalariga o`z vaqtida rioya qilishingizga bog`liq bo`lib bu adekvat hisoblanadi. Masalan: muolajalar tartibini buzishning oqibati yomon bo`lishini bilib negativ emotsiyalar va hissiyotga berilasiz, birdan kayfiyatigiz tushib ketadi. Aksariyat odamlarning shifokor tavsiyalariga e`tiborsizligi tufayli xatarli oqibatlarga duchor bo`lgani haqida eshitganingizda o`zingizni yuqotib quyasiz. Ba`zan o`zingiz ayrim tavsiyalarga rioya qilolmay qolsangiz darrov asabiylashasiz.
+Sizning xulq-atvoringiz turli vaziyatlarda ham dorilarni o`z vaqtida ichishga, muolajalarga kechikib qolmaslikka qaratilgan, doim kun tartibini buzmaslikka xarakat qilasiz.
+"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/txtCount2"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:layout_marginHorizontal="12dp"
+                            android:background="@drawable/mainshape2"
+                            android:text="Quyi qiymatlar (1-54 ball)"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/t22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="12dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:orientation="vertical"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="4dp"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="12dp">
+
+                                <TextView
+                                    android:id="@+id/test1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp"
+                                    android:text="Sizning kasallik va uni davolash haqidagi bilimlaringiz past darajada, chunki jurnallardagi, internet sahifalar va ijtimoiy tarmoqdagi kasallikni oldini olish va davolash haqidagi qoida va tavsiyalar yoritilgan maqolalar, yangiliklarga qiziqmaysiz, juda kam vaqt ajratasiz va e`tibor qaratmaysiz. Shuning uchun kasallik tufayli kelib chiqadigan bir qator asoratlar hamda ularning oldini olish chora tadbirlari haqida yaxshi tasavvurga ega emassiz.
+Sizning kayfiyatingiz, emotsiyalaringiz va his tuyg`ularingizni kasallikka nisbatan adekvat deyish qiyin. Masalan: muolajalar tartibi va shifokor tavsiyalariga rioya qilmasangiz negativ emotsiyalar va hissiyotga berilmaysiz, chunki bunday holatlar Sizni umuman tashvishlantirmaydi va shifokor tavsiyalariga rioya qilmasangiz oqibati yomon bo`lishini bilsangiz ham kayfiyatigiz tushib ketmaydi. Aksariyat bemorlar shifokor tavsiyalariga e`tiborsizligi tufayli xatarli oqibatlarga duchor bo`lganiga befarqsiz. Siz shifokor tavsiyalariga rioya qilmaysiz, dorilarni vaqtida ichishga va kun tartibiga beparvo qaraysiz. Umuman muolajalrni tartibini buzish Sizni tashvishlantirmaydi. Sizning xulq-atvoringiz salomatligingiz uchun xavf tug`diradi."
+                                    android:textStyle="bold"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

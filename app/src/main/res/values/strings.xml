@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Davolanishga sodiqlik</string>
+    <string name="test1">Sizdagi kassalik davosi haqida, adabiyotlar (gazeta, jurnal, plakat, internet maʼlumotlari) o‘qib turasizmi?</string>
+    <string name="variant1.1">yo‘q, o‘qimayman</string>
+    <string name="variant1.2">baʼzan o‘qiyman</string>
+    <string name="variant1.3">o‘qishga harakat qilaman</string>
+    <string name="variant1.4">tez tez o‘qiyman</string>
+    <string name="variant1.5">ha, doim o‘qiyman</string>
+    <string name="test2">O‘zingizni shifokoringizga kasalingiz haqida qiziqtirgan savollarni berib turasizmi?</string>
+    <string name="variant2.1">yo‘q,  bermayman</string>
+    <string name="variant2.2">kamdan kam beraman</string>
+    <string name="variant2.3">baʼzan beraman</string>
+    <string name="variant2.4">tez-tez beraman</string>
+    <string name="variant2.5">ha, doim beraman</string>
+    <string name="test3">LFK, yoga, jismoniy faollik qay darajada ijobiy taʼsir ko‘rsatishini bilasizmi?</string>
+    <string name="variant3.1">yo‘q,  bilmayman</string>
+    <string name="variant3.2">juda kam bilaman</string>
+    <string name="variant3.3">kamroq bilaman</string>
+    <string name="variant3.4">deyarli bilaman</string>
+    <string name="variant3.5">ha, bilaman</string>
+    <string name="test4">Agar vaqtida davolanmasangiz Sizdagi kasallik natijasida paydo bo‘ladigan asoratlar xaqida bilasizmi?</string>
+    <string name="variant4.1">yo‘q,  bilmayman</string>
+    <string name="variant4.2">juda kam bilaman</string>
+    <string name="variant4.3">kamroq bilaman</string>
+    <string name="variant4.4">deyarli bilaman</string>
+    <string name="variant4.5">ha, bilaman</string>
+    <string name="test5">Sizdagi kasallikni davolash paytida nojo‘ya taʼsirlarni paydo bo‘lishi mumkinligi haqida bilasizmi?</string>
+    <string name="variant5.1">yo‘q, bilmayman</string>
+    <string name="variant5.2">juda kam bilaman</string>
+    <string name="variant5.3">kamroq bilaman</string>
+    <string name="variant5.4">deyarli bilaman </string>
+    <string name="variant5.5">ha, bilaman</string>
+    <string name="test6">Sizga qanday mahsulotlarni isteʼmol qilish mumkinligini bilasizmi?</string>
+    <string name="variant6.1">yo‘q, bilmayman</string>
+    <string name="variant6.2">ko‘pchiligini bilmayman</string>
+    <string name="variant6.3">baʼzilarini bilaman</string>
+    <string name="variant6.4">mahsulotlarni deyarli bilaman </string>
+    <string name="variant6.5">ha, deyarli hamma mahsulotlarni bilaman</string>
+    <string name="test7">Sizga qanday mahsulotlarni isteʼmol qilish mumkin emasligini bilasizmi?</string>
+    <string name="variant7.1">yo‘q, bilmayman</string>
+    <string name="variant7.2">ko‘pchiligini bilmayma</string>
+    <string name="variant7.3">baʼzilarini bilaman</string>
+    <string name="variant7.4">mahsulotlarni deyarli bilaman</string>
+    <string name="variant7.5">ha, deyarli hamma mahsulotlarni bilaman</string>
+    <string name="test8">G‘azablansangiz davolanishni to‘xtatishingiz mumkinmi? </string>
+    <string name="variant8.1">ha, mumkin</string>
+    <string name="variant8.2">ko‘pincha to‘xtaman</string>
+    <string name="variant8.3">baʼzan to‘xtataman</string>
+    <string name="variant8.4">to‘xtatmaslikka harakat qilaman</string>
+    <string name="variant8.5">yo‘q, to‘xtatmayman</string>
+    <string name="test9">Siz davolanishning murakkabligi, davomiyligi va muntazamligiga qaramasdan o‘zingizdagi xotirjamlikni saqlaysizmi?</string>
+
+
+    <string name="variant9.1">yo‘q, saqlamayman </string>
+    <string name="variant9.2">baʼzan saqlamayman </string>
+    <string name="variant9.3">saqlashga harakat qilaman </string>
+    <string name="variant9.4">ko‘pincha saqlayman </string>
+    <string name="variant9.5">ha saqlayman </string>
+    <string name="test10">Agar vaqtida davolanmasangiz(masalan: dori, muolaja, diyetaga rioya va shifoxonada profilaktik davolanish) o‘zingizda noxushlik his etasizmi?</string>
+    <string name="variant10.1">yo‘q, hech qachon</string>
+    <string name="variant10.2">har doim ham emas</string>
+    <string name="variant10.3">baʼzan </string>
+    <string name="variant10.4">tez-tez </string>
+    <string name="variant10.5">ha, har doim </string>
+    <string name="test11">Kasallikni yengishingizga ishonasizmi?</string>
+    <string name="variant11.1">yo‘q, ishonmayman </string>
+    <string name="variant11.2">ishonchdan ko‘ra, ishonchsizlik ko‘proq </string>
+    <string name="variant11.3">vaqti vaqti bilan ishonaman </string>
+    <string name="variant11.4">ishonchsizlikdan ko‘ra, ishonch ko‘proq  </string>
+    <string name="variant11.5">ha ishonaman </string>
+
+
+    <string name="test12">Dorilarni qabul qilgandan so‘ng Sizda kayfiyatni tushib ketish holatlari bo‘lib turadimi?</string>
+    <string name="variant12.1">yo‘q, hech qachon </string>
+    <string name="variant12.2">har doim emas </string>
+    <string name="variant12.3">baʼzan </string>
+    <string name="variant12.4">tez-tez </string>
+    <string name="variant12.5">ha, har doim </string>
+    <string name="test13">Paydo bo‘lishi mumkin bo‘lgan asoratlar haqida gap ketganda Siz kuchli qo‘rquvni his etasizmi?</string>
+    <string name="variant13.1">yo‘q, hech qachon </string>
+    <string name="variant13.2">har doim emas </string>
+    <string name="variant13.3">baʼzan </string>
+    <string name="variant13.4">tez-tez </string>
+    <string name="variant13.5">ha, har doim </string>
+    <string name="test14">Sizdagi kasallik kelajagingizga taʼsir kiladi deb o‘ylab tashvishga tushasizmi?</string>
+    <string name="variant14.1">yo‘q, hech qachon </string>
+    <string name="variant14.2">har doim emas </string>
+    <string name="variant14.3">baʼzan </string>
+    <string name="variant14.4">tez-tez </string>
+    <string name="variant14.5">ha, har doim </string>
+    <string name="test15">Jismoniy faolligingizni muntazamlik darajasini baxolang (m: toza havoda sayr, badan tarbiya, sport)</string>
+    <string name="variant15.1">faollik yo‘q </string>
+    <string name="variant15.2">kamdan kam</string>
+    <string name="variant15.3">baʼzan (vaqti vaqti bilan)</string>
+    <string name="variant15.4">doim bo‘lsa kerak</string>
+    <string name="variant15.5">muntazam</string>
+    <string name="test16">Siz dori vositalaringizni qachon va qaysi paytda qabul qilish zarurligini eslaysizmi?</string>
+    <string name="variant16.1">yo‘q, eslay olmayman </string>
+    <string name="variant16.2">ko‘proq eslagandan ko‘ra, esimdan chiqaraman </string>
+    <string name="variant16.3">vaqti vaqti bilan eslab turaman</string>
+    <string name="variant16.4">esimdan chiqargandan ko‘ra, ko‘proq eslayman</string>
+    <string name="variant16.5">ha, yodda tutaman </string>
+    <string name="test17">Siz begonalar yonida dorilar qabul qilib turasizmi?</string>
+    <string name="variant17.1">yo‘q, hech qachon qabul qilmayman</string>
+    <string name="variant17.2">baʼzan qabul qilib turaman </string>
+    <string name="variant17.3">ko‘pincha qabul qilaman </string>
+    <string name="variant17.4">tez-tez qabul qilib turaman </string>
+    <string name="variant17.5">xa, qabul qilaman atrofimda begonalar bo‘lishiga qaramasdan </string>
+    <string name="test18">Siz qandaydir muammolarga  qaramasdan zarur dori vositalarini  muntazam qabul qilishni davom ettirasizmi?
+</string>
+    <string name="variant18.1">muammo tufayli muntazam qabul qilishni to‘xtataman</string>
+    <string name="variant18.2">ko‘pincha muntazam qabul qilishni to‘xtataman</string>
+    <string name="variant18.3">baʼzan muammolar muntazam qabul qilishga taʼsir qiladi</string>
+    <string name="variant18.4">ko‘pincha qabul qilishni muntazam davom ettiraman</string>
+    <string name="variant18.5">hech narsaga qaramay qabul qilishni muntazam davom ettiraman</string>
+    <string name="test19">Siz shifokorning davolash tavsiyalariga rioya etasizmi (misol uchun: muolajalar, o‘z vaqtida dorilar qabuli)?</string>
+    <string name="variant19.1">yo‘q, rioya qilmayman</string>
+    <string name="variant19.2">baʼzan rioya etmayman</string>
+    <string name="variant19.3">rioya etishga harakat qilaman</string>
+    <string name="variant19.4">ko‘pincha rioya qilaman</string>
+    <string name="variant19.5">ha, rioya qilaman</string>
+    <string name="test20">Sizda o‘z hohishingiz bilan davolanishni to‘xtatgan payt bo‘lganmi?</string>
+    <string name="variant20.1">ha tez-tez</string>
+    <string name="variant20.2">baʼzan bo‘lgan</string>
+    <string name="variant20.3">faqat bir marta</string>
+    <string name="variant20.4">to‘xtatmaslikka harakat qilganman</string>
+    <string name="variant20.5">yo‘q, hech qachon</string>
+    <string name="test21">Siz davolovchi shifokoringiz qabuliga belgilagan vaktda borasizmi?</string>
+    <string name="variant21.1">yo‘q, hech qachon</string>
+    <string name="variant21.2">baʼzan belgilangan qabulga boraman</string>
+    <string name="variant21.3">1-2 marta qabulnini o‘tkazib yuborganman</string>
+    <string name="variant21.4">muntazam borishga harakat qilaman</string>
+    <string name="variant21.5">ha, har doim </string>
+
+
+    <string name="about1">Ushbu so`rovnoma somatik kasalliklar bilan kasallangan va uzoq muddat davolanayotgan bemorlar va ular bilan ishlaydigan tibbiyot xodimi, tibbiy psixolog, ilmiy tadqiqot olib borayotgan talabalar, doktorantlar olimlar, davolanishga sodiqlikni o`rganayotganlar uchun mo`ljallangan. Davolashda sodiqlikning kognitiv, emotsional va xulq-atvoriy komponentlarini tashxislash mumkin.</string>
+    <string name="abouta1">salomatlikni yaxshilash qoidalari haqidagi bilimlarni baholash imkoniyatini beradi.
+Yuqori qiymatlar (19-35 ball). Siz kasalingiz haqida yaxshi maʼlumotga egasiz, davolanish jarayonida shifokor tomonidan berilgan tavsiyalarga qatʼiy rioya etish kerakligini bilasiz. Jurnallar, internet sahifalar va ijtimoiy tarmoqdagi kasallikni davolash haqidagi qoida va tavsiyalar yoritilgan maqolalar, yangiliklarga qiziqish bildirasiz hamda vaqt ajratib e`tibor qaratasiz. Shuning uchun kasallikning qator asoratlari hamda ularning oldini olish chora tadbirlari haqida yaxshi tasavvurga egasiz.
+Quyi qiymatlar (1-18 ball). Siz kasalingiz haqida yaxshi maʼlumotga ega emassiz, davolanish jarayonida shifokor tomonidan berilgan tavsiyalarga qatʼiy rioya etish kerakligi haqida bilmaysiz. Jurnallar, internet sahifalar va ijtimoiy tarmoqdagi kasallikni davolash haqidagi qoida va tavsiyalar yoritilgan maqolalar, yangiliklarga qiziqmaysiz, vaqt ajratib e`tibor qaratmaysiz. Shuning uchun kasallik tufayli kelib chiqadigan bir qator asoratlar hamda ularning oldini olish chora tadbirlari haqida yaxshi tasavvurga ega emassiz.
+</string>
+    <string name="about3">Sizga, xulqingizdagi davolanishga sodiqligingizga ta`luqli savollar berilgan. Ushbu so`rovnomada noto`g`ri va to`g`ri javoblar yo`q. Sizning vazifangiz har bir savolga o`zingizga mos javobni tanlash va savollarni qoldirmasdan to`liq o`qib maqbul javobni belgilashdan iborat</string>
+    <string name="abouta3">Yuqori qiymatlar (57-106 ball).
+Siz kasalingiz haqida yaxshi maʼlumotga egasiz, davolanish jarayonida shifokor tomonidan berilgan tavsiyalarga qatʼiy rioya etish kerakligini bilasiz.  Ommaviy axborot vositalarida e`lon qilinadigan kasallikni oldini olish va davolash haqidagi qoida va tavsiyalar yoritilgan maqolalar, yangiliklarga e`tibor qaratasiz, vaqt ajratib qiziqish bilan o`qib chiqasiz. Shuning uchun kasallikning qator asoratlari hamda ularning oldini olish chora tadbirlari haqida yaxshi tasavvurga egasiz.
+Sizning kayfiyatingiz, emotsiya va hissiyotlaringiz bexatarlikni ta`minlashga qaratilgan shifokor buyurgan muolaja tartibiga va tavsiyalariga o`z vaqtida rioya qilishingizga bog`liq bo`lib bu adekvat hisoblanadi. Masalan: muolajalar tartibini buzishning oqibati yomon bo‘lishini bilib negativ emotsiyalar va hissiyotga berilasiz, birdan kayfiyatingiz tushib ketadi. Aksariyat odamlarning shifokor tavsiyalariga eʼtiborsizligi tufayli xatarli oqibatlarga duchor bo‘lgani haqida eshitganingizda o‘zingizni yo\'qotib qo\'yasiz. Baʼzan o‘zingiz ayrim tavsiyalarga rioya qilolmay qolsangiz darrov asabiylashasiz.
+Sizning xulq-atvoringiz turli vaziyatlarda ham dorilarni o‘z vaqtida ichishga, muolajalarga kechikib qolmaslikga qaratilgan, doim kun tartibini buzmaslikga harakat qilasiz.
+Quyi qiymatlar (1-54 ball). Sizning kasallik va uni davolash haqidagi bilimlaringiz past darajada, chunki jurnallardagi, internet sahifalar va ijtimoiy tarmoqdagi kasallikni oldini olish va davolash haqidagi qoida va tavsiyalar yoritilgan maqolalar, yangiliklarga qiziqmaysiz, juda kam vaqt ajratasiz va e`tibor qaratmaysiz. Shuning uchun kasallik tufayli kelib chiqadigan bir qator asoratlar hamda ularning oldini olish chora tadbirlari haqida yaxshi tasavvurga ega emassiz.
+Sizning kayfiyatingiz, emotsiyalaringiz va his tuyg`ularingizni kasallikka nisbatan adekvat deyish qiyin. Masalan: muolajalar tartibi va shifokor tavsiyalariga rioya qilmasangiz negativ emotsiyalar va hissiyotga berilmaysiz, chunki bunday holatlar Sizni umuman tashvishlantirmaydi va shifokor tavsiyalariga rioya qilmasangiz oqibati yomon bo`lishini bilsangiz ham kayfiyatingiz tushib ketmaydi. Aksariyat bemorlar shifokor tavsiyalariga e`tiborsizligi tufayli xatarli oqibatlarga duchor bo`lganiga befarqsiz. Siz shifokor tavsiyalariga rioya qilmaysiz, dorilarni vaqtida ichishga va kun tartibiga beparvo qaraysiz.  Umuman muolajalarni tartibini buzish Sizni tashvishlantirmaydi. Sizning xulq-atvoringiz salomatligingiz uchun xavf tug‘diradi.
+
+</string>
+</resources>

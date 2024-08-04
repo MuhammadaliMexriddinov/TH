@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/mainshape2"
+            android:layout_marginHorizontal="12dp"
+            android:text="1"
+            android:id="@+id/txtCount"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="vertical"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp">
+
+                <TextView
+                    android:id="@+id/test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="lqewliurhtwieuhrtowieuhrtoiwuhewe"/>
+
+
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    app:layout_constraintTop_toBottomOf="@id/test"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/radio1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:padding="10dp"
+                    android:buttonTint="#040404"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#323232"
+                    android:textSize="15dp" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/radio2"
+                    android:layout_width="match_parent"
+                    app:layout_constraintTop_toBottomOf="@id/radio1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:padding="10dp"
+                    android:buttonTint="#040404"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#323232"
+                    android:textSize="15dp" />
+
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/radio3"
+                    android:layout_width="match_parent"
+                    app:layout_constraintTop_toBottomOf="@id/radio2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:padding="10dp"
+                    android:buttonTint="#040404"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#323232"
+                    android:textSize="15dp" />
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/radio4"
+                    android:layout_width="match_parent"
+                    app:layout_constraintTop_toBottomOf="@id/radio3"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:padding="10dp"
+                    android:buttonTint="#040404"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#323232"
+                    android:textSize="15dp" />
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/radio5"
+                    android:layout_width="match_parent"
+                    app:layout_constraintTop_toBottomOf="@id/radio4"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:padding="10dp"
+                    android:buttonTint="#040404"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#323232"
+                    android:textSize="15dp" />
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
